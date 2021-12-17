@@ -1,0 +1,45 @@
+{
+    "name": "VideoCompressorBot",
+    "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
+    "stack": "container",
+    "env": {
+        "APP_ID": {
+            "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Make a bot from @BotFather, and enter it's api token here.",
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "Get ur Id Of Telegram nd Paste Here.",
+            "value": ""
+        },
+        "RESOLUTION": {
+            "description": "https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html",
+             "value": "" 
+        },
+        "PRESET": {
+            "description": "https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html",
+             "value": "" 
+        },
+        "TUNE": {
+            "description": "https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html",
+             "value": "" 
+        },
+        "AUDIO": {
+            "description": "https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html",
+             "value": ""   
+        },
+        "CRF": {
+            "description": "https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html",
+             "value": "" 
+            
+            
+        }
+    }
+}
