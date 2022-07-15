@@ -35,7 +35,7 @@ async def help_message(app, message):
     check = await check_user(message)
     if check is None:
         return
-    text = f"""<b>Commands:</b>
+    text = """<b>Commands:</b>
 • AutoDetect Telegram Files.
 • /help - Commands List.
 • /start - Introduction.
@@ -43,6 +43,7 @@ async def help_message(app, message):
 • /sthumb - Save Thumb
 • /dthumb - Clear Thumb.
 • /logs - check logs."""
+
     await message.reply(text=text, reply_markup=output)
 
 
